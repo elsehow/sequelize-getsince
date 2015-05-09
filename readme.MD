@@ -8,8 +8,7 @@ A simple wrapper for Sequelize that gets all entries of type `sequelizeModel` si
 
 ## example usage
 
-'''
-
+```
 getSince = require('getSince')
 
 // our db
@@ -31,4 +30,4 @@ getSince(
     console.log('error!', err) 
     sequelize_db.close()
   })
-'''
+```
