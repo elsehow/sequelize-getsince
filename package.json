@@ -1,0 +1,28 @@
+{
+  "name": "sequelize-getsince",
+  "version": "0.0.1",
+  "description": "A simple wrapper for Sequelize that gets all entries of type `sequelizeModel` since some time `timeInPast`",
+  "main": "sequelize-getsince.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/elsehow/sequelize-getsince"
+  },
+  "keywords": [
+    "sequelize",
+    "time",
+    "query",
+    "getsince"
+  ],
+  "author": "elsehow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elsehow/sequelize-getsince/issues"
+  },
+  "homepage": "https://github.com/elsehow/sequelize-getsince",
+  "dependencies": {
+    "moment": "^2.10.2"
+  }
+}
