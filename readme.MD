@@ -1,7 +1,7 @@
 
 ## sequelize-getEntriesSince
 
-A simple wrapper for Sequelize that gets all entries of type `sequelizeModel` since some time `timeInPast`
+A simple wrapper for Sequelize that gets all entries of type `sequelizeModel` created since some time `timeInPast`
 
 
 ## getEntriesSince(timeInPast, sequelizeModel, successCb, errorCb)

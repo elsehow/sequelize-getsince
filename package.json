@@ -1,6 +1,6 @@
 {
   "name": "sequelize-getsince",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "A simple wrapper for Sequelize that gets all entries of type `sequelizeModel` since some time `timeInPast`",
   "main": "sequelize-getsince.js",
   "scripts": {

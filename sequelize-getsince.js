@@ -3,7 +3,7 @@ moment = require('moment')
 function getEntriesSince (timeInPast, sequelizeModel, successCb, errorCb) {
   data = sequelizeModel.findAll({
     where: {
-      indra_time: {
+      createdAt: {
         gt: moment(timeInPast).format()
       }
     }
